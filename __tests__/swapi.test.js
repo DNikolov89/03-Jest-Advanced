@@ -3,7 +3,7 @@ const axios = require('axios');
 
 //import functions from swapi.js
 const { getLuke } = require('../swapi');
-const { afterAll } = require('jest-circus');
+
 
 describe('Mocking modules with jest.mock', () => {
     describe('test the swapi real data', () => {
